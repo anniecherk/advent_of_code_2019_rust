@@ -12,6 +12,10 @@ mod day01;
 
 fn main() {
     println!("Lookout world, running day01!");
-    println!("And the answer is 🥁🥁🥁 {}", day01::answer());
+    let (part1, part2) = day01::answers();
+    println!(
+        "And the answer is 🥁🥁🥁 \n Part 1:{}, and Part 2:{}",
+        part1, part2
+    );
     println!("Done!");
 }

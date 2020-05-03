@@ -8,11 +8,11 @@
     clippy::result_expect_used
 )]
 
-mod day01;
+mod day02;
 
 fn main() {
     println!("Lookout world, running day01!");
-    let (part1, part2) = day01::answers();
+    let (part1, part2) = day02::answers();
     println!(
         "And the answer is 🥁🥁🥁 \n Part 1:{}, and Part 2:{}",
         part1, part2
